@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module2_solution_by_richa</title>
+
+<style>
+    *{box-sizing: border-box;}
+    body{background-color: cornsilk;}
+    h1{
+        margin:100px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 175%;
+    }
+    section{
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+    p{
+        position: relative;
+        clear:right;
+    }
+    div{
+        position: relative;
+        background-color: green;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+    .sub1{
+        float: right;
+        width:100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: cornflowerblue;
+    }
+    .sub2{
+        
+        color:darkblue;
+        float: right;
+        width:100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color:darkgray;
+    }
+    .sub3{
+        color:darkmagenta;
+        float: right;
+        width:100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color:gold;
+    }
+    .content{
+        padding: 5px;
+        border:none;
+        background-color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        margin:0px;
+        height: 200px;
+        overflow: auto;
+    }
+    .row{width:90%}
+    @media(min-width: 992px){.column-lg-4{float:left;
+                                width:33.33%;}}
+    @media(min-width: 768px) and (max-width: 991px)
+    {
+        .column-md-6{float: left;
+                        width: 50%;
+                    margin-left: auto;
+                    margin-right: auto;}
+        .column-md-12{float: left;
+                        width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+        }
+    }
+    @media(max-width: 767px){
+        .column-sm-12{float: left;
+                    width: 100%;}
+    }
+</style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <section class="column-lg-4 column-md-6 column-sm-12">
+        <div><p class="sub1">TOMATO</p>
+            <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae aperiam dolore quis non facere repellendus. Facilis dolore provident vero unde, officiis recusandae explicabo cum itaque praesentium incidunt, ducimus doloribus.</p>
+    </div>
+    </section>
+    <section class="column-lg-4 column-md-6 column-sm-12">
+        <div><p class="sub2">ONION</p>
+            <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae aperiam dolore quis non facere repellendus. Facilis dolore provident vero unde, officiis recusandae explicabo cum itaque praesentium incidunt, ducimus doloribus.</p>
+    </div>
+    </section>
+    <section class="column-lg-4 column-md-12 column-sm-12">
+        <div><p class="sub3">PUMPKIN</p>
+            <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae aperiam dolore quis non facere repellendus. Facilis dolore provident vero unde, officiis recusandae explicabo cum itaque praesentium incidunt, ducimus doloribus.</p>
+    </div>
+    </section>
+</body>
+</html>
